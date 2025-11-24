@@ -1,0 +1,23 @@
+# Sobre a Cloudwalk
+
+A Cloudwalk é uma fintech (empresa de tecnologia financeira) brasileira, fundada em 2013 por Luis Silva e sediada em São Paulo. Ela é a empresa controladora da popular marca InfinitePay.
+
+Considerada um "unicórnio" desde 2021 (avaliada em mais de US$ 2 bilhões), a Cloudwalk foca em revolucionar o sistema financeiro tradicional usando tecnologias como Inteligência Artificial (IA) e blockchain.
+
+Atua como uma Instituição de Pagamento (IP) e Sociedade de Crédito, Financiamento e Investimento (SCFI), regulada pelo Banco Central do Brasil.
+
+# Missão e Valores
+
+A missão principal da Cloudwalk é "democratizar o acesso a serviços financeiros inovadores". O objetivo é criar uma rede global de pagamentos, tornando as transações mais rápidas, fáceis, seguras e com taxas justas, desafiando o modelo bancário tradicional.
+
+# Produtos (via InfinitePay)
+
+A InfinitePay é a principal plataforma de serviços financeiros da Cloudwalk voltada para empreendedores brasileiros. Seus produtos incluem:
+
+- Maquininha Smart: A máquina de cartão física.
+- InfiniteTap (Tap to Pay): Uma solução que transforma o celular (Android e iOS) em uma maquininha de cartão.
+- Link de Pagamento: Permite vendas online e por redes sociais.
+- Pix: Recebimento de pagamentos via Pix.
+- Conta Inteligente: Uma conta digital gratuita focada em PJ e MEI.
+- Empréstimo Inteligente: Oferta de crédito para capital de giro.
+- Loja Online: Plataforma gratuita para criação de e-commerce.
