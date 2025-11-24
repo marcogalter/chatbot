@@ -98,7 +98,7 @@ Este projeto é uma solução para o Nível 1 do desafio Nimbus, que consiste em
    
    Após executar o comando acima, você verá algo como:
    ```
-   You can now view your Streamlit app in your browser.
+   Agora você pode visualizar seu aplicativo Streamlit no seu navegador.
    
    Local URL: http://localhost:8501
    Network URL: http://192.168.x.x:8501
