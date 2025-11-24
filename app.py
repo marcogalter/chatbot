@@ -135,14 +135,16 @@ def apply_custom_css():
             border: none !important;
             border-radius: 50px !important;
 
-            /* Layout e Espaçamento (Ajuste para o formato 'pílula' e layout flex) */
-            /* PADDING do container PAI: 10px verticais, 18px laterais para manter a forma arredondada */
-            padding: 10px 18px 10px 18px !important; 
+            /* Layout e Espaçamento (Ajuste para melhor visualização do texto) */
+            /* PADDING aumentado para acomodar melhor o texto */
+            padding: 14px 24px 14px 24px !important; 
             display: flex !important;
             align-items: center !important;
-            gap: 8px !important; /* Espaçamento sutil entre o campo de texto e o botão */
-            margin: 32px 0 !important;
+            gap: 12px !important; /* Espaçamento aumentado entre o campo de texto e o botão */
+            margin: 32px auto !important;
             outline: none !important;
+            width: 100% !important;
+            max-width: 600px !important; /* Largura máxima para não ficar muito largo */
 
             /* Efeitos Visuais */
             box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4), inset 0 1px 3px rgba(255, 255, 255, 0.08) !important;
@@ -184,13 +186,13 @@ def apply_custom_css():
             background-color: transparent !important;
             color: #e8e8e8 !important;
             font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
-            font-size: 0.96em !important;
+            font-size: 1em !important; /* Aumentei um pouco a fonte */
             font-weight: 400 !important;
             border: none !important;
             outline: none !important;
             
             /* Essencial: zera padding/margin para usar o padding do container pai */
-            padding: 0 0 0 0 !important; 
+            padding: 2px 4px !important; /* Pequeno padding para melhor legibilidade */
             margin: 0 !important;
             
             line-height: 1.6 !important;
@@ -200,6 +202,7 @@ def apply_custom_css():
             transition: all 0.2s ease !important;
             width: 100% !important;
             letter-spacing: 0.3px !important;
+            min-height: 24px !important; /* Altura mínima para acomodar o texto */
         }
 
         /* Placeholder elegante e legível */
@@ -368,7 +371,7 @@ if prompt := st.chat_input("O que você quer saber?"):
 
     # Gera a resposta do RAG
     with st.chat_message("assistant"):
-        with st.spinner("Analisando documentos..."):
+        with st.spinner("Pensando na melhor resposta..."):
             answer = rag_chain.invoke(prompt)
             st.markdown(answer)
 

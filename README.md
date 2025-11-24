@@ -50,8 +50,8 @@ Este projeto é uma solução para o Nível 1 do desafio Nimbus, que consiste em
 
 #### **3. Clone o repositório:**
    ```bash
-   git clone [URL-DO-SEU-REPO]
-   cd chatbot-cloudwalk
+   git clone https://github.com/marcogalter/chatbot.git
+   cd chatbot
    ```
 
 #### **4. Instale o Python 3.10-venv (se necessário - Ubuntu/Debian):**
@@ -122,7 +122,7 @@ Este projeto é uma solução para o Nível 1 do desafio Nimbus, que consiste em
    ollama serve
    
    # 2. Em outro terminal, ative o ambiente virtual
-   cd chatbot-cloudwalk
+   cd chatbot
    source venv/bin/activate  # ou .\venv\Scripts\activate no Windows
    
    # 3. Execute o chatbot
