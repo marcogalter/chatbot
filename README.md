@@ -57,7 +57,7 @@ Este projeto é uma solução para o Nível 1 do desafio Nimbus, que consiste em
 #### **4. Instale o Python 3.12-venv (se necessário - Ubuntu/Debian):**
    ```bash
    sudo apt update
-   sudo apt install python3.10-venv -y
+   sudo apt install python3.12-venv -y
    ```
 
 #### **5. Crie e ative o ambiente virtual:**
