@@ -354,8 +354,7 @@ st.caption("Pergunte-me sobre a Cloudwalk, sua missão e produtos (InfinitePay).
 
 # Inicializa o histórico do chat
 if "messages" not in st.session_state:
-    st.session_state.messages = [{"role": "assistant", 
-                                  "content": "Olá! Como posso ajudar você a saber mais sobre a Cloudwalk?"}]
+    st.session_state.messages = []
 
 # Exibe mensagens anteriores
 for message in st.session_state.messages:
