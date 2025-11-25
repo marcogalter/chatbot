@@ -54,7 +54,7 @@ Este projeto é uma solução para o Nível 1 do desafio Nimbus, que consiste em
    cd chatbot
    ```
 
-#### **4. Instale o Python 3.10-venv (se necessário - Ubuntu/Debian):**
+#### **4. Instale o Python 3.12-venv (se necessário - Ubuntu/Debian):**
    ```bash
    sudo apt update
    sudo apt install python3.10-venv -y
